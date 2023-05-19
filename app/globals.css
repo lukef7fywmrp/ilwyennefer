@@ -15,20 +15,6 @@
     );
   }
 
-  .gradient-2 {
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0) 0%,
-        rgba(255, 255, 255, 0.12) 100%
-      ),
-      linear-gradient(
-        90deg,
-        rgba(229, 71, 255, 0) 36.27%,
-        rgb(255, 71, 149) 71.37%,
-        rgb(255, 204, 71) 92.98%
-      );
-  }
-
   .newsletter-form {
     --primary: #8c4ec2;
     --primary-dark: #6b21a8;
