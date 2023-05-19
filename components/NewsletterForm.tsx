@@ -108,16 +108,16 @@ function NewsletterForm() {
             <div className="text-xs sm:text-sm text-[#4B4C52]">
               {successMessage ? (
                 <p>
-                  We've added{" "}
+                  We&apos;ve added{" "}
                   <span className="text-[#ADB0B1]">
                     {successMessage.email_address}
                   </span>{" "}
-                  to our waitlist. We'll let you know when we launch!
+                  to our waitlist. We&apos;ll let you know when we launch!
                 </p>
               ) : (
                 <p>
-                  You are already added to our waitlist. We'll let you know when
-                  we launch!
+                  You are already added to our waitlist. We&apos;ll let you know
+                  when we launch!
                 </p>
               )}
             </div>
